@@ -27,7 +27,7 @@ pip install pandas streamlit
 ```
 3) Make sure movies.csv and ratings.csv are inside the data/ folder.
 
-##Usage
+## Usage
 Run the Streamlit app:
 
 1) In CLI - go to src/main.py
@@ -37,8 +37,4 @@ Run the Streamlit app:
    ```
 2) In UI - run ui.py
    ```bash
-   streamlit run ui.py
-```
-
-
-  
+   streamlit run ui.py  
