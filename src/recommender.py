@@ -1,3 +1,4 @@
+=======
 def get_movie_recommendations(data, movie_title, min_ratings=3, top_n=5):
     import pandas as pd
     import numpy as np
@@ -45,3 +46,5 @@ def get_movie_recommendations(data, movie_title, min_ratings=3, top_n=5):
 
     print(f"[INFO] Found {len(corr_df)} correlated movies.")
     return corr_df.head(top_n).index.tolist()
+
+
