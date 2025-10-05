@@ -18,7 +18,27 @@ A simple **Python-based movie recommendation system** with an interactive **Stre
 git clone <your-repo-link>
 cd movie-recommender
 
-
+```
+2) Install dependencies:
+```bash 
 pip install -r requirements.txt
 # or at minimum:
 pip install pandas streamlit
+```
+3) Make sure movies.csv and ratings.csv are inside the data/ folder.
+
+##Usage
+Run the Streamlit app:
+
+1) In CLI - go to src/main.py
+   ```bash
+   cd src
+   python main.py
+   ```
+2) In UI - run ui.py
+   ```bash
+   streamlit run ui.py
+```
+
+
+  
